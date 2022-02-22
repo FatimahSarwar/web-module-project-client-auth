@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route} from 'react-router-dom';
-
+import Login from './Components/login';
 function App() {
   return (
     <div>
@@ -12,8 +12,7 @@ function App() {
         <button>ADD FRIEND</button>
         <button>Logout</button>
        </nav>
-       <input placeholder='username' />
-       <input placeholder='password' />
+       <Route path="/" element={<Login/>} />
     </div>
   );
 }
