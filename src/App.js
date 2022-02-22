@@ -4,8 +4,16 @@ import { BrowserRouter as Router, Route} from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <h2>Client Auth Project</h2>
+    <div>
+      <h1>FRIENDS DATABASE</h1>
+      <nav>
+        <button>LOGIN</button>
+        <button>FRIENDLIST</button>
+        <button>ADD FRIEND</button>
+        <button>Logout</button>
+       </nav>
+       <input placeholder='username' />
+       <input placeholder='password' />
     </div>
   );
 }
